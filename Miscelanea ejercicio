@@ -1,0 +1,131 @@
+print("Miscelanea de Trabajo en Python\n")
+
+print("Operadores\n")
+
+print("Area de un triangulo\n")
+
+base = float(input("Digite la base del triangulo:\n"))
+altura = float(input("Digite la altura del triangulo:\n"))
+area = base * altura / 2
+
+print("El Area del triangulo es: ", str(area))
+
+print("\n")
+
+print("Miscelanea de Trabajo\n")
+
+print("Operadores\n")
+
+print("Suma de dos Numeros\n")
+
+num1 = float(input("Digite el primer numero:\n"))
+num2 = float(input("Digite el segundo numero:\n"))
+resultado = num1 + num2
+
+print("La suma de los numeros es: ", str(resultado))
+
+print("\n")
+
+print("Miscelanea de Trabajo\n")
+
+print("Operadores\n")
+
+print("Numero al cuadrado\n")
+
+numero = int(input("Digite el numero\n"))
+
+print("El resultado al cuadrado del numero", str(numero**2))
+
+print("\n")
+
+print("Miscelanea de Trabajo\n")
+
+print("Operadores\n")
+
+print("Conversor de Unidades\n")
+
+unidad = float(input("Digite la cantidad que desea convertir\n"))
+print("Cantidad en dolar: " + str(unidad * 105.24))
+
+print("\n")
+
+print("Miscelanea de Trabajo\n")
+
+print("Operadores\n")
+
+print("Perimetro y Area de un cuadrado\n")
+
+print("\n")
+
+print("Perimetro del cuadrado\n")
+
+perimetro = float(input("Digite el valor del perimetro:\n"))
+print("El perimetro del cuadrado es:",
+      str(perimetro + perimetro + perimetro + perimetro))
+
+print("\n")
+
+print("Area del cuadrado\n")
+
+area = float(input("Digite el valor del area\n"))
+print("El area  del cuadrado es:", area * area, "cm²")
+
+print("\n")
+
+print("Miscelanea de Trabajo\n")
+
+print("Operadores\n")
+
+print("Area y Volumen de un cilindro\n")
+
+print("Area de un cilindro\n")
+
+radio = int(input("Digite el radio del cilindro\n"))
+altura = int(input("Digite la altura del cilindro\n"))
+area = str(2 * 3.14 * radio * altura + 2 * 3.14 * radio**2)
+
+print("El area del cilindro es:", str(area))
+
+print("Volumen del cilindro\n")
+
+radio1 = int(input("Digite el radio del cilindro\n"))
+altura1 = int(input("Digite la altura del cilindro\n"))
+
+volumen = str(3.14 * radio1**2 * altura1)
+
+print("El volumen del cilindro es", volumen, "cm3")
+
+print("\n")
+
+print("Miscelanea de Trabajo\n")
+
+print("Operadores\n")
+
+print("Area y Longitud de una circunferencia\n")
+
+parametro = float(input("Digite el parametro del circulo\n"))
+
+print("El radio es", str(parametro / 3.14))
+
+print("Digite el radio para calcular el area y la longitud\n")
+
+radio = float(input("Digite el radio\n"))
+area = 3.14 * radio**2
+longitud = 2 * 3.14 * radio
+print("El area del circulo es", str(area))
+print("La longitud del circulo es", str(longitud))
+
+print("\n")
+
+print("Miscelanea de Trabajo\n")
+
+print("Operadores\n")
+
+print("Promedio de 3 numeros\n")
+
+numero1 = float(input("Digite el primer numero\n"))
+numero2 = float(input("Digite el segundo numero\n"))
+numero3 = float(input("Digite el tercer numero\n"))
+promedio = numero1 + numero2 + numero3
+
+print("El promedio de los numero es", str(promedio / 3))
